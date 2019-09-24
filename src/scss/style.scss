@@ -1,0 +1,20 @@
+.project-preview {
+    img {
+        background-color: gray;
+    }
+    > a {
+        h2, h3 {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    .btn {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        
+        &:hover {
+            color: white;
+        }
+    }
+}
