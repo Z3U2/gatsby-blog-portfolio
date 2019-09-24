@@ -2,11 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 
 export default ({isHome}) => {
+
+    function click(e) {
+        const navbar = document.getElementById('navbarResponsive')
+        navbar.classList.toggle('show')
+    }
+
     return (
         <nav className={"navbar navbar-expand-lg navbar-light fixed-top" + (isHome ? "" : " nav-pages")} id="mainNav">
             <div className="container">
                 <Link className="navbar-brand" to="/">Start Bootstrap</Link>
-                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button onClick={click} className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>
                 </button>
