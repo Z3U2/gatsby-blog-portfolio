@@ -16,7 +16,7 @@ export default ({isHome}) => {
                             <Link className="nav-link" to={"/"}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to={"/post/"}>Portfolio</Link>
+                            <Link className="nav-link" to={"/portfolio/"}>Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to={"/about/"}>About</Link>
