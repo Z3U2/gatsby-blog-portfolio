@@ -6,6 +6,8 @@ import Header from "../components/header"
 import PostPreview from "../components/post-preview"
 import Container from "../components/container"
 
+import splash from "../images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
+
 import config from "../conf"
 
 // Dummy posts
@@ -44,8 +46,9 @@ const posts = [
 export default () => (
     <Layout isHome={true} >
         <Header 
-        pageTitle={config.mainTitle}
-        pageSub={config.mainSub}
+            pageTitle={config.mainTitle}
+            pageSub={config.mainSub}
+            image={splash}
         />
             <Container>
             {posts.map(post => {

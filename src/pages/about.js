@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Container from "../components/container"
 
+import splash from "../images/joseph-chan-C8VWyZhcIIU-unsplash.jpg"
+
 import config from "../conf"
 
 
@@ -12,6 +14,7 @@ export default () => (
         <Header
             pageTitle={config.aboutTitle}
             pageSub={config.aboutSub}
+            image={splash}
         />
         <Container>
             <p>
