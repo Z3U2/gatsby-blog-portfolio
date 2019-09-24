@@ -1,8 +1,8 @@
 import React from "react"
 
-export default ({pageTitle, pageSub}) => {
+export default ({pageTitle, pageSub, image}) => {
     return (
-        <header className="masthead" >
+        <header className="masthead" style={{backgroundImage: `url(${image})`}}>
             <div className="overlay"></div>
             <div className="container">
                 <div className="row">
