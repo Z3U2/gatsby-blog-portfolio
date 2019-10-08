@@ -1,5 +1,6 @@
 // Overall page conf
 const config = {
+    brand: "Ilyass Nasr",
     mainTitle : "My Blog",
     mainSub : "Programming and technology enthusiast",
     aboutTitle : "About me",
