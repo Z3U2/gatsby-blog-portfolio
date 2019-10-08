@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default ({slug, title, subtitle, publishDate, ...props}) => {
     return (
         <div className="post-preview">
-            <Link to={`/${slug}/`}>
+            <Link to={`${slug}`}>
                     <h2 className="post-title">
                         {title}
                     </h2>
