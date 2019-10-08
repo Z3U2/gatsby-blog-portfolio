@@ -5,7 +5,9 @@ const config = {
     aboutTitle : "About me",
     aboutSub : "What I do",
     portfolioTitle : "Portfolio",
-    portfolioSub : "Check my projects"
+    portfolioSub : "Check my projects",
+    contactTitle : "Contact me",
+    contactSub : "My contact info"
 }
 
 export default config
