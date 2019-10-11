@@ -12,9 +12,7 @@ import splash from "../images/markus-spiske-qjnAnF0jIGk-unsplash.jpg"
 import config from "../conf"
 
 export default ({data}) => {
-    console.log(data)
     const projects = data.allProjectsCsv.nodes
-    console.log(projects)
     return (
         <Layout isHome={true} >
             <Header
