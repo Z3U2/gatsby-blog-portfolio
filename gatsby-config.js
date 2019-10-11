@@ -10,6 +10,7 @@ const config = {
         },
         `gatsby-transformer-remark`,
         `gatsby-transformer-csv`,
+        `gatsby-plugin-react-helmet`,
     ]
 }
 
