@@ -9,6 +9,7 @@ const config = {
             },
         },
         `gatsby-transformer-remark`,
+        `gatsby-transformer-csv`,
     ]
 }
 
