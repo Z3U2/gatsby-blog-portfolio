@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -11,6 +12,9 @@ import config from "../conf"
 
 export default () => (
     <Layout isHome={true} >
+        <Helmet
+            title="About | Ilyass Nasr"
+        />
         <Header
             pageTitle={config.aboutTitle}
             pageSub={config.aboutSub}

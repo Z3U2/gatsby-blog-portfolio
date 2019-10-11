@@ -1,5 +1,6 @@
 import React from "react"
 import { Link,graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -15,6 +16,9 @@ export default ({data}) => {
     const edges = data.allMarkdownRemark.edges
     return (
         <Layout isHome={true} >
+            <Helmet
+                title = "Ilyass Nasr"
+            />
             <Header
                 pageTitle={config.mainTitle}
                 pageSub={config.mainSub}

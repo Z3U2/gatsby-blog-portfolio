@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Container from "../components/container"
@@ -15,6 +16,9 @@ export default ({ data,pageContext }) => {
     const currentPage = data.allMarkdownRemark.pageInfo.currentPage
     return (
         <Layout>
+            <Helmet
+                title= { `Page ${currentPage} | Ilyass Nasr` } 
+            />
             <Header
                 pageTitle="Blog Posts"
                 image={splash}

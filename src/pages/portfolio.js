@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
@@ -15,6 +16,9 @@ export default ({data}) => {
     const projects = data.allProjectsCsv.nodes
     return (
         <Layout isHome={true} >
+            <Helmet
+                title="Portfolio | Ilyass Nasr"
+            />
             <Header
                 pageTitle={config.portfolioTitle}
                 pageSub={config.portfolioSub}
