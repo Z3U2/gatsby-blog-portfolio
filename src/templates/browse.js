@@ -13,7 +13,6 @@ export default ({ data,pageContext }) => {
     const edges = data.allMarkdownRemark.edges
     const hasNextPage = data.allMarkdownRemark.pageInfo.hasNextPage
     const currentPage = data.allMarkdownRemark.pageInfo.currentPage
-    console.log(pageContext)
     return (
         <Layout>
             <Header
