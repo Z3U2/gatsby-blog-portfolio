@@ -29,3 +29,12 @@
         }
     }
 }
+
+.logo {
+    margin-right:5px;
+    transform: translateY(-1px);
+     @media only screen and (min-width: 992px) {
+        filter: invert(92%) sepia(97%) saturate(6912%) hue-rotate(183deg) brightness(122%) contrast(99%);
+    }
+    
+}
