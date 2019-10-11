@@ -22,10 +22,10 @@
         padding-left: 20px;
     }
     .btn {
-        color: white;
+        color: white !important;
         width: 130px;
         &:hover {
-            color: white;
+            color: white !important;
         }
     }
 }
