@@ -14,6 +14,11 @@ export default ({ slug, title, subtitle, demo, code, skills, ...props }) => {
                     {subtitle}
                 </h3>
             </Link>
+            <div className="skills">
+                <p>
+                    Skills : <br/> {skills}
+                </p>
+            </div>
             <div className="project-buttons">
                 <a className="btn btn-primary" href={code} target="_blank" rel="noopener noreferrer">Code</a>
                 <a className="btn btn-primary" href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
