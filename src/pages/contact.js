@@ -22,10 +22,7 @@ export default () => (
         />
         <Container>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Saepe nostrum ullam eveniet pariatur voluptates odit,
-                fuga atque ea nobis sit soluta odio, adipisci quas excepturi
-                maxime quae totam ducimus consectetur?
+                Is there anything I can do for you ? Leave a message through the form below.
             </p>
             <form method="post" name="contact" id="contactForm" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
