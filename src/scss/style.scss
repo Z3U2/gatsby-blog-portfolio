@@ -42,3 +42,26 @@
     }
     
 }
+
+.social-media-container {
+    @media only screen and (min-width: 768px) {
+        border-right: solid 1px lightgray;
+    }
+}
+
+.resume-container {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom : 20px;
+    @media only screen and (min-width: 768px) {
+        padding-top: 0px;
+        padding-bottom : 0px;
+        position: relative;
+        a {
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+    }
+}
