@@ -1,0 +1,5 @@
+title,subtitle,demo,code,skills,image
+ShopList,Web App for listing shops near you,https://shopnearme.netlify.com/,https://github.com/Z3U2/ShopList,"Front : React, Bootstrap, Back: Node.js, MongoDB, Express, Passport, Jest (Unit Tests)",screen-ShopList
+Trakr,"Real time fleet tracking web app, with history analysis and admin panel",https://trace-vehicle.netlify.com/,https://github.com/Z3U2/trace-vehicle,"Front : Angular (2+), Firebase (+AngularFire2), Chart.js, TypeScript, Back : Node.js, Express, Moment, MongoDB (+Mongoose), Firebase-admin",screen-trakr
+Pong Game,Basic pong game made using Phaser,https://phaser-pong.netlify.com/,https://github.com/Z3U2/phaser-pong/,"Phaser, HTML, CSS",screen-Pong
+My Blog/Portfolio,Static website generated from markdown and csv,https://ilyassnasr.netlify.com/,https://github.com/Z3U2/gatsby-blog-portfolio,"Gatsby, React, GraphQL, Markdown",screen-Blog
