@@ -25,6 +25,11 @@ export default ({data}) => {
                 image={splash}
             />
             <Container>
+                <p>
+                    <span role="img" aria-label="important notice">⚠️</span> Please bear in mind that the App Services running my backend APIs
+                    go idle after a period when unsolicited, thus needing a warm up time 
+                    whenever they are used. 
+                </p>
                 <ProjectList>
                     {projects.map(project =>
                         <ProjectPreview key={project.id} {...project} />
