@@ -7,7 +7,7 @@ import Container from "../components/container"
 import Header from "../components/header"
 import PostPreview from "../components/post-preview"
 
-import splash from "../images/camilo-jimenez-Pll7AP6NFpY-unsplash.jpg"
+import splash from "../images/camilo-jimenez-Pll7AP6NFpY-unsplash-min.jpg"
 
 
 export default ({ data,pageContext }) => {
