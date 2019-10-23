@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Container from "../components/container"
 
-import splash from "../images/antoine-barres-jay5BqVyf5A-unsplash.jpg"
+import splash from "../images/antoine-barres-jay5BqVyf5A-unsplash-min.jpg"
 
 import config from "../conf"
 

@@ -7,7 +7,7 @@ import Header from "../components/header"
 import PostPreview from "../components/post-preview"
 import Container from "../components/container"
 
-import splash from "../images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
+import splash from "../images/andrew-neel-cckf4TsHAuw-unsplash-min.jpg"
 
 import config from "../conf"
 

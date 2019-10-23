@@ -8,7 +8,7 @@ import ProjectPreview from "../components/project-preview"
 import ProjectList from "../components/project-list"
 import Container from "../components/container"
 
-import splash from "../images/markus-spiske-qjnAnF0jIGk-unsplash.jpg"
+import splash from "../images/markus-spiske-qjnAnF0jIGk-unsplash-min.jpg"
 
 import config from "../conf"
 
