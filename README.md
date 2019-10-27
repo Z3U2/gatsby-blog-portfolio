@@ -67,8 +67,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 4. **`conf.js`**: General site data, organised in the following format:
 
 
-    ```json
-    {
+    ```js
+    const config = {
         brand: "<Website Brand>",
         mainTitle : "<Home Page Title>",
         mainSub : "<Home Page Subtitle>",
