@@ -5,13 +5,14 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Container from "../components/container"
 import Header from "../components/header"
+import config from "../conf";
 
 export default ({data}) => {
     const post = data.markdownRemark
     return (
         <Layout>
             <Helmet
-                title = {`${post.frontmatter.title} | Ilyass Nasr`}
+                title = {`${post.frontmatter.title} | ${config.brand}`}
             />
             <Header
                 pageTitle = {post.frontmatter.title}

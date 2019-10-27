@@ -13,7 +13,7 @@ import config from "../conf"
 export default () => (
     <Layout isHome={true} >
         <Helmet
-            title="About | Ilyass Nasr"
+            title={`About | ${config.brand}`}
         />
         <Header
             pageTitle={config.aboutTitle}

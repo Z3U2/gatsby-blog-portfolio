@@ -8,6 +8,7 @@ import Header from "../components/header"
 import PostPreview from "../components/post-preview"
 
 import splash from "../images/camilo-jimenez-Pll7AP6NFpY-unsplash-min.jpg"
+import config from "../conf";
 
 
 export default ({ data,pageContext }) => {
@@ -17,7 +18,7 @@ export default ({ data,pageContext }) => {
     return (
         <Layout>
             <Helmet
-                title= { `Page ${currentPage} | Ilyass Nasr` } 
+                title= { `Page ${currentPage} | ${config.brand}` } 
             />
             <Header
                 pageTitle="Blog Posts"

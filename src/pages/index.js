@@ -17,7 +17,7 @@ export default ({data}) => {
     return (
         <Layout isHome={true} >
             <Helmet
-                title = "Ilyass Nasr"
+                title={`${config.brand}`}
             />
             <Header
                 pageTitle={config.mainTitle}
