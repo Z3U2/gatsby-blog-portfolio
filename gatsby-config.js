@@ -1,6 +1,6 @@
 const config = {
     siteMetadata: {
-        siteUrl: "https://ilyassnasr.netlify.com"
+        siteUrl: "https://ilyassnasr.tk"
     },
     plugins : [
         `gatsby-plugin-sass`,
